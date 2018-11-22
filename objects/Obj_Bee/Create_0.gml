@@ -2,3 +2,4 @@
 event_inherited();
 
 velocity = 5;
+enemy = true;

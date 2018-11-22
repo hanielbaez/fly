@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "17f3d953-0ea2-4c22-99b9-c3c49f387d61",
+            "Value": {
+                "id": "ea96247e-f5df-4b48-b05a-3b41e3e1cad6",
+                "resourcePath": "sprites\\Spr_Grid\\Spr_Grid.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "21c11a92-97ad-44ee-8433-74d50ac20a0a",
             "Value": {
                 "id": "6c328e87-a3e5-4cf0-91e2-3c439b2ab82d",
@@ -167,6 +175,22 @@
             }
         },
         {
+            "Key": "606a2c2a-45a0-4c7e-aeab-5e2220c10de2",
+            "Value": {
+                "id": "a4ce5338-ad0b-473c-912e-a99d2ea4d7b8",
+                "resourcePath": "sprites\\Spr_Confetty\\Spr_Confetty.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6c817d0d-3bc6-468d-a423-fc065379443c",
+            "Value": {
+                "id": "04498a11-7058-4402-9b8b-4a7015b31f8c",
+                "resourcePath": "objects\\Obj_Lvl_Control\\Obj_Lvl_Control.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6f319d7e-7c16-44cf-b1db-5f2fdeaec986",
             "Value": {
                 "id": "f0d5a1f0-e724-4802-833b-3b9e2acc2884",
@@ -212,6 +236,14 @@
                 "id": "512f83df-dcf0-46bf-b77b-40c2ccdea7fe",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "8735e1de-c04b-4a35-9f95-057261743078",
+            "Value": {
+                "id": "fb1fbcfc-f74e-4c8b-8665-64a3a8762b26",
+                "resourcePath": "sprites\\Spr_Font\\Spr_Font.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -316,6 +348,14 @@
                 "id": "9d4b020d-9b8b-498e-838e-03aaa4cc520f",
                 "resourcePath": "views\\c12a8d21-8e18-4743-8772-dd3bc3067703.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c338d535-5e6c-4be0-9dbc-163d28d7696f",
+            "Value": {
+                "id": "36b5bb1d-d088-4c78-a6fd-74525354d6dc",
+                "resourcePath": "objects\\Obj_Create_Control\\Obj_Create_Control.yy",
+                "resourceType": "GMObject"
             }
         },
         {
