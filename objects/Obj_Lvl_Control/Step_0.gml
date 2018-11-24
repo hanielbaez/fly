@@ -8,5 +8,8 @@ if lvl_succes
 		part_emitter_burst(confety_system, confety_emmiter, confety_part, 40);
 		lvl_end = true;
 		lvl_succes = false;
+		
+		//Success EFX
+		audio_play_sound(Son_Success, 1, false);
 		//alarm[0] =  1 * room_speed; 
 	}

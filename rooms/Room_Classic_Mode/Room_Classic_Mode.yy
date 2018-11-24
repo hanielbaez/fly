@@ -2,7 +2,7 @@
 {
     "name": "Room_Classic_Mode",
     "id": "5c2f353c-fc96-4367-af18-22aad324936b",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -75,7 +75,7 @@
             "id": "593e9f30-bc9c-42a5-8546-fca582d14e50",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4289967027 },
+            "colour": { "Value": 4294967295 },
             "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
