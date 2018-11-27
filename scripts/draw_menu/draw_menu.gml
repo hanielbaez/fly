@@ -1,4 +1,7 @@
-draw_set_color(c_white);
 draw_set_halign(fa_center);
-draw_text_transformed(550, 400, "COLOR \n FLY", 5, 6, image_angle);
+//Create font
+bitmap_font();
+draw_text_transformed(230, 150, "COLOR \n FLY", 2.5, 3, image_angle);
+
+draw_set_font(font_comic);
 

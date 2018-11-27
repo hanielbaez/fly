@@ -10,3 +10,7 @@ amplitude = random_range(15, 100); //pixels of peak oscilation
 
 //clone the position
 yy = y;
+
+//X and Y position at the moment of dead
+dead_x = x;
+dead_y = y;

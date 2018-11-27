@@ -1,5 +1,5 @@
-//Create font
-bitmap_font();
+//Defaul color
+global.color = c_lime;
 
 //State machine
 enum states

@@ -1,0 +1,1 @@
+!!! Font fnt_sample_ex_patch_devicevibrate uses a font (Segoe UI Light) not installed on this system - Font has NOT been regenerated
