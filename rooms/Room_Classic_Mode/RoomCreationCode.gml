@@ -1,12 +1,16 @@
 //Defaul color
 global.color = c_lime;
 
+//Background color
+global.back_color = c_aqua;
+
 //State machine
 enum states
 	{
-		Menu, //Main menu
-		Game, //Start the game
-		Success, //Pass the Lvl
-		Over //Game oer
+		Menu,
+		Start,
+		Game, 
+		Success, 
+		Over 
 	}
 

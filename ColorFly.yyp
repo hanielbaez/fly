@@ -79,14 +79,6 @@
             }
         },
         {
-            "Key": "17f3d953-0ea2-4c22-99b9-c3c49f387d61",
-            "Value": {
-                "id": "ea96247e-f5df-4b48-b05a-3b41e3e1cad6",
-                "resourcePath": "sprites\\Spr_Grid\\Spr_Grid.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "21c11a92-97ad-44ee-8433-74d50ac20a0a",
             "Value": {
                 "id": "6c328e87-a3e5-4cf0-91e2-3c439b2ab82d",
@@ -135,11 +127,27 @@
             }
         },
         {
+            "Key": "30f6e9f9-46bd-445e-a112-4f8049643457",
+            "Value": {
+                "id": "60d32935-f7ac-4c38-a559-5046aeafd05e",
+                "resourcePath": "scripts\\draw_over\\draw_over.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "33931f19-94d2-4909-b73a-59b4977ff2aa",
             "Value": {
                 "id": "03bc045a-269d-4131-bab6-13c21a634915",
                 "resourcePath": "sprites\\Spr_Butterfly\\Spr_Butterfly.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3533c11f-fe0d-4428-8581-d04c578ab647",
+            "Value": {
+                "id": "2d3abee4-298a-42d1-a11c-5a7679bf8c73",
+                "resourcePath": "scripts\\step_Start\\step_Start.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -175,14 +183,6 @@
             }
         },
         {
-            "Key": "45a68c8f-3a71-4d26-9ebb-3497a4a77410",
-            "Value": {
-                "id": "77633ab6-1959-4d2b-b277-4f500be0d2cf",
-                "resourcePath": "fonts\\font_comic\\font_comic.yy",
-                "resourceType": "GMFont"
-            }
-        },
-        {
             "Key": "4f95f525-bb51-4218-bd75-2b83800012c4",
             "Value": {
                 "id": "36e65cc8-c594-48f8-ba11-f66717016ce2",
@@ -204,6 +204,14 @@
                 "id": "d8a594ce-a569-4d75-bea2-aedf703215ba",
                 "resourcePath": "views\\50e8d9b6-ae29-49db-85d4-baa177f5f548.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "52e92a82-f31f-474e-95ab-323249e4b65e",
+            "Value": {
+                "id": "92aa151b-06ee-4c6d-95d3-3d769df56a2c",
+                "resourcePath": "sounds\\Son_Auch\\Son_Auch.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -343,6 +351,14 @@
             }
         },
         {
+            "Key": "9b6e3a44-1e95-43e7-b9a1-d6b001364c8a",
+            "Value": {
+                "id": "5c44e627-deb9-4112-a35d-2517275c2498",
+                "resourcePath": "views\\9b6e3a44-1e95-43e7-b9a1-d6b001364c8a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "e18446fa-d850-4f1c-b23f-4e0d900de892",
@@ -439,6 +455,14 @@
             }
         },
         {
+            "Key": "b9763dc1-e77c-4f3a-87fe-a12a3bcc57f2",
+            "Value": {
+                "id": "1624a4c0-bdd9-46c1-b61b-54013187985f",
+                "resourcePath": "scripts\\step_over\\step_over.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bcf50cac-a5fd-4a04-b4df-f3fec9b296f5",
             "Value": {
                 "id": "70fc5c9c-8577-44bd-8cf5-0823be59be5b",
@@ -479,11 +503,27 @@
             }
         },
         {
+            "Key": "cfe0b213-cb7b-4361-85d0-420ab00baee8",
+            "Value": {
+                "id": "5f4bb5ed-0ac1-476e-af9c-c237409d57a9",
+                "resourcePath": "fonts\\font_Minecraft\\font_Minecraft.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "d4597fbd-356c-427b-92c3-67a5776435c8",
             "Value": {
                 "id": "04bc2e5f-771f-40f4-b051-95c45f84c0c9",
                 "resourcePath": "sounds\\Son_Bubble\\Son_Bubble.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "d7d01550-6e17-4306-b241-2292d86ca571",
+            "Value": {
+                "id": "4a832f7d-5454-4991-8f20-ba8df4fd1107",
+                "resourcePath": "views\\d7d01550-6e17-4306-b241-2292d86ca571.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -560,13 +600,16 @@
         }
     ],
     "script_order": [
-        "54cf5749-33e7-409a-a5e0-e168b2f3cf06",
         "228e4320-29cd-4edd-8d9a-a64f50afa6be",
+        "54cf5749-33e7-409a-a5e0-e168b2f3cf06",
         "b05b41d8-e2e1-4f6e-8a6b-a6bf819a148f",
         "ee0c88bc-f978-4ec7-8cb9-9c33f79fad7f",
         "58813c6e-7ec4-4701-892e-c23248df93b7",
         "5681c1f6-6003-4660-bd03-a2fdf8c1eefe",
-        "9986f301-e28a-44b4-bbbc-16f1ce0058f4"
+        "9986f301-e28a-44b4-bbbc-16f1ce0058f4",
+        "30f6e9f9-46bd-445e-a112-4f8049643457",
+        "b9763dc1-e77c-4f3a-87fe-a12a3bcc57f2",
+        "3533c11f-fe0d-4428-8581-d04c578ab647"
     ],
     "tutorial": ""
 }

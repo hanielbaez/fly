@@ -1,7 +1,6 @@
 /// @description Set var
 
 dead = false; //Insect live status
-enemy = noone;
 
 //Fly move
 t = 0;

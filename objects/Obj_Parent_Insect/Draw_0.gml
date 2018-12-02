@@ -6,15 +6,8 @@ if dead
 		var _combo = string(Obj_Game_Control.combo);
 		
 		dead_y -= 10; //Go up
-		draw_text_transformed_color(dead_x, dead_y, "COMBO \n X" + _combo, 3.5, 4, 0, c_white, c_white, c_white, c_white, 1);
+		draw_text_transformed_color(dead_x, dead_y, "COMBO \n X" + _combo, 3.5, 4, 0, c_yellow, c_yellow, c_yellow, c_yellow, 1);
 	}
-
-
-//Mark dangerous insect
-//if enemy 
-//	{
-//		draw_sprite_ext(sprite_index, -1, x, y, image_xscale*1.3, image_yscale*1.3, image_angle, c_red, 1);
-//	}
 
 draw_self();
 
