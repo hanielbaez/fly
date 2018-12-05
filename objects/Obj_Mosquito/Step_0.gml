@@ -17,6 +17,16 @@ if dead
 		if x_dir = 1 image_xscale = -1; else image_xscale = 1;
 	}
 
+image_xscale = x_size * (-x_dir);
+image_yscale = y_size;
+
+if x_size <= 1
+{
+	x_size += 0.05;
+	y_size = x_size;
+}
+
+
 //Keep on the room
 //X
 if x > room_width x = 1;

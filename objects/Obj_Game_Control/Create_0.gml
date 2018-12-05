@@ -34,7 +34,7 @@ part_type_shape(global.explotion_part, pt_shape_ring)
 part_type_size(global.explotion_part, 1, 1, 3.5, false);
 //part_type_direction(global.explotion_part, 0, 360, false, false);
 //part_type_speed(global.explotion_part, 10, 60, false, false);
-part_type_alpha2(global.explotion_part, .1, 0.1);
+part_type_alpha2(global.explotion_part, .5, 0.1);
 part_type_blend(global.explotion_part, true);
 part_type_life(global.explotion_part, 10, 10);
 

@@ -1,7 +1,7 @@
 /// @description Background  y Surface 
 
 //Background color
-draw_set_alpha(0.6);
+draw_set_alpha(0.5);
 draw_rectangle_color(0, 0, room_width, room_height, global.back_color, global.back_color, c_black, c_black, false);
 draw_set_alpha(1); //Set back alpha
 

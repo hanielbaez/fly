@@ -35,7 +35,7 @@ if _insect != noone && !_insect.dead
 		//Shake the phone
 		if ( ex_patch_device_vibration_supported() ) 
 			{
-				ex_patch_device_vibrate(50); // time argument is not supported for iOS (vibration effect is always 2s)
+				ex_patch_device_vibrate(60); // time argument is not supported for iOS (vibration effect is always 2s)
 			} 
 			//else { show_message("Vibration not supported on this target!"); }
 				

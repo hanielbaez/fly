@@ -8,6 +8,7 @@ global.back_color = c_aqua;
 enum states
 	{
 		Menu,
+		Mode,
 		Start,
 		Game, 
 		Success, 

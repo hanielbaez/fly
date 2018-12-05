@@ -30,7 +30,8 @@ if _insect != noone && !_insect.dead
 		dead_y = _insect.y;
 
 		Obj_Game_Control.combo++; //Increase combo counter
-		Obj_Game_Control.clasic_score += (Obj_Game_Control.lvl * Obj_Game_Control.combo);   //Increase score
+		_insect.addScore = (Obj_Game_Control.lvl * Obj_Game_Control.combo);
+		Obj_Game_Control.clasic_score += _insect.addScore  //Increase score
 				
 		_insect.dead = true;
 	}

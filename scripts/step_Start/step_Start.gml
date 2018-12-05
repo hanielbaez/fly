@@ -1,8 +1,16 @@
 //Random number of insect for the LVL
+
+if instance_exists(Obj_Parent_Insect) || instance_exists(Obj_Bee)
+	{
+		//Destroy all the previuos insect and bee
+		instance_destroy(Obj_Parent_Insect);
+		instance_destroy(Obj_Bee);
+	}
+
 var insect_number = irandom_range(2, Obj_Game_Control.lvl);
 insect_number = clamp(insect_number, 4, 9);
 
-for (i=0; i<=insect_number; i++)
+for (var _i=0; _i<=insect_number; _i++)
 	{
 		#region Insect_by_lvl
 		if lvl < 10
@@ -34,13 +42,13 @@ for (i=0; i<=insect_number; i++)
 	}
 	
 	//Number of bee to create
-	var bee_number = irandom_range(2, 4);
+	var bee_number = irandom_range(2, 3);
 	if lvl > 5
 		{
-			for (t=0; t<= bee_number; t++)
+			for (var _t=0; _t<= bee_number; _t++)
 				{
 					var _x = random_range(250, room_width - 250);
-					var _y = random_range(250, room_height - 650);
+					var _y = random_range(250, room_height - 750);
 					instance_create_layer(_x, _y, "Insect_Layer", Obj_Bee);
 				}
 		}
