@@ -1,8 +1,9 @@
 /// @description Try again
 counter = 0;
+audio_play_sound(Son_Calm, 1 , true); //Background music
 
-
-virtual_key_delete(key_try);
+virtual_key_delete(key_home);
+virtual_key_delete(key_next_or_try);
 
 //Clean the surface
 surface_set_target(Obj_Surface_Control.surface_color);

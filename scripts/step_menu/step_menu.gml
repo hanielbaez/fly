@@ -1,13 +1,13 @@
 //Create color splash effect for the logo
-for(u=0; u<4; u++)
+for(var _u=0; _u<6; _u++)
 	{
 		randomize();
 		var _x = random_range((room_width/2)-250, (room_width/2)+250);
 		var _y = random_range(300, 400);
 
-		global.color = choose(c_red, c_blue, c_yellow, c_lime, c_orange);
+		global.color = choose(c_red, c_blue, c_yellow, c_lime, c_orange, c_fuchsia, c_purple);
 
-		for(i=0; i<10; i++)
+		for(var _i=0; _i<10; _i++)
 			{
 				instance_create_depth(_x, _y, depth, Obj_Color_Splash);
 			}

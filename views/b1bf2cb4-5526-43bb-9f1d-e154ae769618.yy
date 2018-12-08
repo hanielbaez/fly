@@ -9,7 +9,8 @@
         "33931f19-94d2-4909-b73a-59b4977ff2aa",
         "35a091ae-6ec5-443e-948f-32137cf8200a",
         "f794a544-a089-4182-b53a-952570e25f32",
-        "1560ef7d-c4c0-4935-b3dd-1fe705a90f9e"
+        "1560ef7d-c4c0-4935-b3dd-1fe705a90f9e",
+        "980b057e-45aa-413c-9954-a54ee9c4303c"
     ],
     "filterType": "GMSprite",
     "folderName": "Gro_Insects",

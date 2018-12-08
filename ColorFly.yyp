@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "30dcd0cd-edb0-4ce0-863e-2833fd435a92",
+            "Value": {
+                "id": "535d0ed7-57b7-49b2-b48c-bbfe1cc05aca",
+                "resourcePath": "sprites\\spr_trail\\spr_trail.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "30f6e9f9-46bd-445e-a112-4f8049643457",
             "Value": {
                 "id": "60d32935-f7ac-4c38-a559-5046aeafd05e",
@@ -220,6 +228,14 @@
                 "id": "d8a594ce-a569-4d75-bea2-aedf703215ba",
                 "resourcePath": "views\\50e8d9b6-ae29-49db-85d4-baa177f5f548.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "51e2011e-5de3-42fd-bb34-78deb882f7e0",
+            "Value": {
+                "id": "2128ec51-529a-4c93-91bc-29fcdf30e953",
+                "resourcePath": "sounds\\Son_Calm\\Son_Calm.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -364,6 +380,14 @@
                 "id": "0036ce5e-4631-4b0f-b19b-39dcced438fc",
                 "resourcePath": "objects\\Obj_Cockroach\\Obj_Cockroach.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "980b057e-45aa-413c-9954-a54ee9c4303c",
+            "Value": {
+                "id": "2e1eb1dd-e79f-4dcd-b839-d2157f94a5b9",
+                "resourcePath": "sprites\\Spr_Beetle\\Spr_Beetle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -583,6 +607,14 @@
             }
         },
         {
+            "Key": "e334ac6a-d90c-41b7-81b7-c97eda07118c",
+            "Value": {
+                "id": "f0315e93-b5f4-4c25-81d5-f58e55fdada4",
+                "resourcePath": "objects\\Obj_squarte\\Obj_squarte.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
                 "id": "a513b9a1-de92-4bc5-8e93-98495aaf7ab8",
@@ -628,6 +660,14 @@
                 "id": "9a239cb3-5811-4d20-adbb-05e218fb8708",
                 "resourcePath": "sprites\\spr_gesture\\spr_gesture.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fce60ef8-94ed-4307-b605-b50e181352e4",
+            "Value": {
+                "id": "f4799b66-5ba4-46a7-9e51-a00e889d9275",
+                "resourcePath": "sounds\\Son_Squeeze\\Son_Squeeze.yy",
+                "resourceType": "GMSound"
             }
         }
     ],

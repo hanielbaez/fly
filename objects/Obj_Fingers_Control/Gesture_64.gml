@@ -4,7 +4,7 @@
 var _touch_x = event_data[? "posX"];
 var _touch_y = event_data[? "posY"];
 
-var _insect = collision_circle(_touch_x, _touch_y, 65, Obj_Parent_Insect, false, false)
+var _insect = collision_circle(_touch_x, _touch_y, 80, Obj_Parent_Insect, false, false)
 
 #region insect_dead
 		
@@ -21,7 +21,8 @@ if _insect != noone && !_insect.dead
 			}
 
 		//Bubble EFX
-		audio_play_sound(Son_Bubble, 1, false);
+		var _sound = choose(Son_Bubble, Son_Squeeze); 
+		audio_play_sound(_sound, 1, false);
 
 		color_random(); //Update splash color
 
@@ -41,3 +42,4 @@ if _insect != noone && !_insect.dead
 	}
 
 #endregion
+

@@ -3,7 +3,7 @@ var half_view_hport = view_hport[0]/2;
 
 if (instance_number(Obj_Parent_Insect)  == 0) 
 	{
-		draw_set_alpha(0.8);
+		draw_set_alpha(0.5);
 		draw_rectangle_color(0, 0, room_width, room_height, c_black, c_black, c_black, c_black, false)
 		draw_set_alpha(1);
 		
@@ -18,6 +18,7 @@ if (instance_number(Obj_Parent_Insect)  == 0)
 		
 		draw_text_transformed(half_view_wport, 430, "NEXT LVL", 2.5, 2.5, 0);
 		draw_sprite_ext(spr_Next_Lvl, -1, half_view_wport, 450, 1.2, 1.2, 0, c_white, 1);
+		draw_set_color(c_white);
 		
 	}
 	 

@@ -4,7 +4,7 @@
 var _mid_x = event_data[? "midpointX"];
 var _mid_y = event_data[? "midpointY"];
 
-var _insect = collision_circle(_mid_x, _mid_y, 65, Obj_Parent_Insect, false, false)
+var _insect = collision_circle(_mid_x, _mid_y, 80, Obj_Parent_Insect, false, false)
 
 #region insect_dead
 		
@@ -21,7 +21,8 @@ if _insect != noone && !_insect.dead
 			}
 
 		//Bubble EFX
-		audio_play_sound(Son_Bubble, 1, false);
+		var _sound = choose(Son_Bubble, Son_Squeeze); 
+		audio_play_sound(_sound, 1, false);
 
 		color_random(); //Update splash color
 
@@ -30,7 +31,8 @@ if _insect != noone && !_insect.dead
 		dead_y = _insect.y;
 
 		Obj_Game_Control.combo++; //Increase combo counter
-		Obj_Game_Control.clasic_score += (Obj_Game_Control.lvl * Obj_Game_Control.combo);  //Increase score
+		_insect.addScore = (Obj_Game_Control.lvl * Obj_Game_Control.combo);
+		Obj_Game_Control.clasic_score += _insect.addScore  //Increase score
 		
 		//Shake the phone
 		if ( ex_patch_device_vibration_supported() ) 

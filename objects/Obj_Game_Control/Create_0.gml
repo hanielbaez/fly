@@ -7,6 +7,8 @@ lvl = 1;
 shake = 0;
 clasic_score = 0;
 
+audio_play_sound(Son_Calm, 1 , true); //Background music
+
 //Celebration pareticle system
 confety_system = part_system_create();
 part_system_automatic_draw(confety_system, false);

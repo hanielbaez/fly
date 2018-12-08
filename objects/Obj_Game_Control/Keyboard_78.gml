@@ -1,6 +1,7 @@
 /// @description Go to next lvl
 counter = 0;
-virtual_key_delete(key_next);
+virtual_key_delete(key_home);
+virtual_key_delete(key_next_or_try);
 lvl++;
 
 //Channge the color of the room random
