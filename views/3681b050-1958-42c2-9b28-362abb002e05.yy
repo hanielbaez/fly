@@ -11,10 +11,11 @@
         "88108c3e-93f1-4ea3-b882-925e5c800785",
         "a3c028ac-5f70-4bcd-9ae7-992ec81b77b0",
         "21c11a92-97ad-44ee-8433-74d50ac20a0a",
-        "b3cc99cd-13a2-4d31-bfe5-3b52244363c2"
+        "b3cc99cd-13a2-4d31-bfe5-3b52244363c2",
+        "c0db3b54-98d2-405d-be48-7c235839d22d"
     ],
     "filterType": "GMObject",
-    "folderName": "Gro_Insects",
+    "folderName": "gro_Insects",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

@@ -42,4 +42,3 @@ if _insect != noone && !_insect.dead
 	}
 
 #endregion
-

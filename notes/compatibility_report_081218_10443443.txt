@@ -1,0 +1,62 @@
+Converting GML script: ${project_dir}\objects\obj_trail1\Create_0.gml
+Converted description /// @description Setting the movement variables and the alarm to change them
+
+Converting GML script: ${project_dir}\objects\obj_trail1\Alarm_0.gml
+Converted description /// @description Changing the movement variables and restarting the alarm
+
+Converting GML script: ${project_dir}\objects\obj_trail1\Other_0.gml
+Converted description /// @description Preventing the object to move outside the room
+
+Converting GML script: ${project_dir}\objects\obj_trail1\Draw_0.gml
+Converted description /// @description Drawing the trail
+
+Converting GML script: ${project_dir}\objects\obj_trail_ext1\Create_0.gml
+Converted description /// @description Setting the movement variables and the alarm to change them
+
+Converting GML script: ${project_dir}\objects\obj_trail_ext1\Alarm_0.gml
+Converted description /// @description Changing the movement variables and restarting the alarm
+
+Converting GML script: ${project_dir}\objects\obj_trail_ext1\Step_2.gml
+ERROR: C:\Users\Haniel\Desktop\ColorFly\objects\obj_trail_ext1\Step_2.gml - 1: number of arguments expected 0 got 1
+Too many errors - GML not processed : ${project_dir}\objects\obj_trail_ext1\Step_2.gml
+
+Converting GML script: ${project_dir}\objects\obj_trail_ext1\Other_0.gml
+Converted description /// @description Preventing the object to move outside the room
+
+Converting GML script: ${project_dir}\objects\obj_trail_ext1\Draw_0.gml
+Converted description /// @description Drawing the trail
+
+Converting GML script: ${project_dir}\objects\obj_trail2\Create_0.gml
+Converted description /// @description Setting the movement variables and the alarm to change them
+
+Converting GML script: ${project_dir}\objects\obj_trail2\Alarm_0.gml
+Converted description /// @description Changing the movement variables and restarting the alarm
+
+Converting GML script: ${project_dir}\objects\obj_trail2\Other_0.gml
+Converted description /// @description Preventing the object to move outside the room
+
+Converting GML script: ${project_dir}\objects\obj_trail2\Draw_0.gml
+Converted description /// @description Drawing the trail
+
+Converting GML script: ${project_dir}\objects\obj_trail_ext2\Create_0.gml
+Converted description /// @description Setting the movement variables and the alarm to change them
+
+Converting GML script: ${project_dir}\objects\obj_trail_ext2\Alarm_0.gml
+Converted description /// @description Changing the movement variables and restarting the alarm
+
+Converting GML script: ${project_dir}\objects\obj_trail_ext2\Step_2.gml
+ERROR: C:\Users\Haniel\Desktop\ColorFly\objects\obj_trail_ext2\Step_2.gml - 1: number of arguments expected 0 got 1
+Too many errors - GML not processed : ${project_dir}\objects\obj_trail_ext2\Step_2.gml
+
+Converting GML script: ${project_dir}\objects\obj_trail_ext2\Other_0.gml
+Converted description /// @description Preventing the object to move outside the room
+
+Converting GML script: ${project_dir}\objects\obj_trail_ext2\Draw_0.gml
+Converted description /// @description Drawing the trail
+
+Converting GML script: ${project_dir}\objects\obj_spawner\Mouse_53.gml
+Converted description /// @description On click a random instance of any of the four objects that draw trails on this example will be created
+
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script '__global_object_depths.gml'

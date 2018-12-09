@@ -13,7 +13,7 @@
         "980b057e-45aa-413c-9954-a54ee9c4303c"
     ],
     "filterType": "GMSprite",
-    "folderName": "Gro_Insects",
+    "folderName": "gro_Insects",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

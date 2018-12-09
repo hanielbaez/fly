@@ -42,7 +42,7 @@ for (var _i=0; _i<=_insect_number; _i++)
 	}
 	
 	//Number of bee to create
-	var _bee_number = irandom_range(3, 5);
+	var _bee_number = irandom_range(2, 3);
 	if lvl > 5
 		{
 			for (var _t=0; _t<= _bee_number; _t++)

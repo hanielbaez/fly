@@ -1,8 +1,6 @@
-//Defaul color
-global.color = c_lime;
-
-//Background color
-global.back_color = c_aqua;
+ga_initialize("03eb8a64cf22556c5e6b559103c7eee6", "a07a1d188fed768337e8d48884c86066501945e8"); //Start GameAnalytic
+global.color = c_lime; //Defaul color
+global.back_color = c_aqua; //Background color
 
 //State machine
 enum states

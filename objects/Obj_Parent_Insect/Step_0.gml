@@ -2,7 +2,7 @@
 if dead
 	{
 		image_angle = 180;
-		gravity = .5;
+		gravity = .2;
 		x += random_range(-15, 15); //Shake
 		if y > room_height instance_destroy();
 	}
@@ -18,7 +18,7 @@ y = yy + shift; //Vertical wave motion
 image_xscale = x_size;
 image_yscale = y_size;
 
-if x_size <= 1
+if x_size <= 0.98
 {
 	x_size += 0.02;
 	y_size = x_size;

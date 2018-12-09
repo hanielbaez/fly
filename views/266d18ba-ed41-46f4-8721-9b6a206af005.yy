@@ -9,7 +9,7 @@
         "6c817d0d-3bc6-468d-a423-fc065379443c"
     ],
     "filterType": "GMObject",
-    "folderName": "Gro_Control",
+    "folderName": "gro_Control",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

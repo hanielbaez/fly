@@ -33,13 +33,6 @@ if _insect != noone && !_insect.dead
 		Obj_Game_Control.combo++; //Increase combo counter
 		_insect.addScore = (Obj_Game_Control.lvl * Obj_Game_Control.combo);
 		Obj_Game_Control.clasic_score += _insect.addScore  //Increase score
-		
-		//Shake the phone
-		if ( ex_patch_device_vibration_supported() ) 
-			{
-				ex_patch_device_vibrate(60); // time argument is not supported for iOS (vibration effect is always 2s)
-			} 
-			//else { show_message("Vibration not supported on this target!"); }
 				
 		_insect.dead = true;
 	}
@@ -49,3 +42,14 @@ if _insect != noone && !_insect.dead
 	}
 
 #endregion
+
+//Destroy objs trail
+if instance_exists(obj_trail_1) 
+	{
+	instance_destroy(obj_trail_1); 
+	}
+	
+if instance_exists(obj_trail_2) 
+	{
+	instance_destroy(obj_trail_2);
+	}

@@ -18,7 +18,7 @@ part_type_sprite(confety_part, Spr_Confetty, false, false, true);
 part_type_orientation(confety_part, 0, 360, 0, 45, 0);
 part_type_gravity(confety_part, 0.2, 270);
 part_type_direction(confety_part, 220, 320, 0, 30);
-part_type_speed(confety_part, 5, 25, -0.1, 0);
+part_type_speed(confety_part, 1, 15, -0.1, 0);
 part_type_size(confety_part, 0.1, .5, 0, 0);
 part_type_blend(confety_part, true);
 part_type_life(confety_part, 120, 240);
@@ -36,7 +36,7 @@ part_type_shape(global.explotion_part, pt_shape_ring)
 part_type_size(global.explotion_part, 1, 1, 3.5, false);
 //part_type_direction(global.explotion_part, 0, 360, false, false);
 //part_type_speed(global.explotion_part, 10, 60, false, false);
-part_type_alpha2(global.explotion_part, .5, 0.1);
+part_type_alpha2(global.explotion_part, .7, 0.1);
 part_type_blend(global.explotion_part, true);
 part_type_life(global.explotion_part, 10, 10);
 
