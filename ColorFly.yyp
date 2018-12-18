@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "063d91cb-d193-49c8-b50f-c1414d7822ca",
+            "Value": {
+                "id": "f781c0e9-9ec8-4274-af7f-63eca20a93f0",
+                "resourcePath": "sounds\\Son_Diamond_up\\Son_Diamond_up.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "06536bec-cf4f-4d53-b6fc-d0a6c47efe03",
             "Value": {
                 "id": "b481c08c-cf8d-433e-ba98-9db1068aec4f",
@@ -343,6 +351,14 @@
             }
         },
         {
+            "Key": "4905cade-006a-443e-9ab6-63b599c728e7",
+            "Value": {
+                "id": "1e3c05f3-c13a-45ae-9495-6b4bcd2525b5",
+                "resourcePath": "shaders\\shOutline\\shOutline.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "4f15a5ff-bc11-4af0-9acf-29b7618d6d35",
             "Value": {
                 "id": "994a9dc7-3abc-4768-a29f-e81eda430a7a",
@@ -455,6 +471,14 @@
             }
         },
         {
+            "Key": "6027f7e6-5cd7-4ab7-bc2a-cbe2484edbfb",
+            "Value": {
+                "id": "ed9e78c2-1676-43a6-8cc7-c7a12ed45976",
+                "resourcePath": "objects\\Obj_Show_lvl\\Obj_Show_lvl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "606a2c2a-45a0-4c7e-aeab-5e2220c10de2",
             "Value": {
                 "id": "a4ce5338-ad0b-473c-912e-a99d2ea4d7b8",
@@ -479,6 +503,14 @@
             }
         },
         {
+            "Key": "63322e33-e2f8-499c-8454-599f1afb26be",
+            "Value": {
+                "id": "90227595-e0be-4d41-af87-577d1c448369",
+                "resourcePath": "sprites\\spr_finger_demo\\spr_finger_demo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6c817d0d-3bc6-468d-a423-fc065379443c",
             "Value": {
                 "id": "04498a11-7058-4402-9b8b-4a7015b31f8c",
@@ -499,6 +531,14 @@
             "Value": {
                 "id": "1a7d329f-0587-413f-8dd2-0eefa53d5116",
                 "resourcePath": "views\\716b8f89-9561-46d1-b600-6b749ae3fea4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "72f197d9-ec19-4e30-9f88-f57edc33fb85",
+            "Value": {
+                "id": "d6767a5e-06cc-4806-913c-e1ff21dc7323",
+                "resourcePath": "views\\72f197d9-ec19-4e30-9f88-f57edc33fb85.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -727,6 +767,14 @@
             }
         },
         {
+            "Key": "a538058b-8d6f-4808-b67c-cd2142886846",
+            "Value": {
+                "id": "b254d707-a03e-4ceb-b184-17dfc3905a53",
+                "resourcePath": "objects\\Obj_Diamond\\Obj_Diamond.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a5d6b929-2ab3-4baa-8a6b-14b5e075a25b",
             "Value": {
                 "id": "f85079c0-adc3-49bd-835a-5bc30373d584",
@@ -756,6 +804,14 @@
                 "id": "f360f5ff-a1d3-4219-9757-f8205885ca22",
                 "resourcePath": "scripts\\ga_array\\ga_array.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "aa30bd9f-b0d5-4490-b03a-dd0b6a9771c6",
+            "Value": {
+                "id": "c0a98d44-94ca-47ec-9ddf-f0206e28cd9d",
+                "resourcePath": "sprites\\Spr_honeycomb\\Spr_honeycomb.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1011,6 +1067,14 @@
             "Value": {
                 "id": "955306e8-1091-4d11-95f8-131ceed1a427",
                 "resourcePath": "sprites\\Spr_honeycomb_background\\Spr_honeycomb_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e0d8ab75-1233-4289-86c9-69d9fc46c8c6",
+            "Value": {
+                "id": "c1fba668-3fb7-4397-9f7f-e8122e0d6483",
+                "resourcePath": "sprites\\Spr_Diamond\\Spr_Diamond.yy",
                 "resourceType": "GMSprite"
             }
         },

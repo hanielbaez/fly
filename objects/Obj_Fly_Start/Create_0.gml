@@ -1,7 +1,7 @@
 /// @description Direction view
 event_inherited();
 
-increment = random_range(3, 5); 
+increment = random_range(1, 2.5); 
 start_counter = true;
 
 randomize()

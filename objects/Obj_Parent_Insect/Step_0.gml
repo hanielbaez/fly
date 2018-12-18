@@ -1,10 +1,11 @@
 /// @description Insect accions
 if dead
 	{
-		image_angle = 180;
-		gravity = .2;
-		x += random_range(-15, 15); //Shake
-		if y > room_height instance_destroy();
+		//image_angle = 180;
+		//gravity = .1;
+		//x += random_range(-15, 15); //Shake
+		//if y > room_height instance_destroy();
+		instance_destroy();
 	}
 	
 //Ocilation move

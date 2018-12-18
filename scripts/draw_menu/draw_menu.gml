@@ -1,9 +1,8 @@
 draw_set_halign(fa_center);
-draw_set_alpha(0.85)
 var halft_wroom =  room_width/4;
 //Create font
 bitmap_font();
-draw_text_transformed(halft_wroom, 100, "PINCH\nFLY", 2.5, 3, image_angle);
-draw_set_alpha(1)
+draw_text_transformed(room_width/4, 100, "PINCH\nFLY", 2.5, 3, image_angle);
 draw_set_font(font_Minecraft);
+draw_text_transformed(180, 25, "LEVEL " + string(lvl), 2, 2, image_angle);
 

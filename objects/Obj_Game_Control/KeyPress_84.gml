@@ -1,6 +1,7 @@
 /// @description Try again
 counter = 0;
-audio_play_sound(Son_Calm, 1 , true); //Background music
+show_button = true;
+if !audio_is_playing(Son_Calm) audio_play_sound(Son_Calm, 1 , true); //Background music
 
 virtual_key_delete(key_home);
 virtual_key_delete(key_next_or_try);

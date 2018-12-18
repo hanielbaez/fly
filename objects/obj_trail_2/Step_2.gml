@@ -1,2 +1,2 @@
 /// @description Calculate trail
-trail_calculate(50);
+trail_calculate(100);

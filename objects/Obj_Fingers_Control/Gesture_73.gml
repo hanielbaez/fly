@@ -10,10 +10,11 @@ var _insect = collision_circle(_mid_x, _mid_y, 80, Obj_Parent_Insect, false, fal
 		
 if _insect != noone && !_insect.dead
 	{
+		part_type_color1(global.explotion_system, global.color);
 		part_emitter_region(global.explotion_system, global.explotion_emmiter, _insect.x-20, _insect.x+20, _insect.y-20, _insect.y+20, pt_shape_sphere, ps_distr_gaussian);
-		part_emitter_burst(global.explotion_system, global.explotion_emmiter, global.explotion_part, 1);
+		part_emitter_burst(global.explotion_system, global.explotion_emmiter, global.explotion_part, 50);
 
-		spawn = random_range(40, 60);
+		spawn = random_range(20, 30);
 
 		for(i=0; i<spawn; i++)
 			{
@@ -33,6 +34,10 @@ if _insect != noone && !_insect.dead
 		Obj_Game_Control.combo++; //Increase combo counter
 		_insect.addScore = (Obj_Game_Control.lvl * Obj_Game_Control.combo);
 		Obj_Game_Control.clasic_score += _insect.addScore  //Increase score
+		
+		//Update LVL bar value
+		Obj_Game_Control.lvl_bar += Obj_Game_Control.insect_value;
+		Obj_Game_Control.size_score = 15;
 				
 		_insect.dead = true;
 	}
@@ -42,6 +47,13 @@ if _insect != noone && !_insect.dead
 	}
 
 #endregion
+
+//Diamond hit
+var _diamond = collision_circle(_mid_x, _mid_y, 80, Obj_Diamond, false, false)
+if _diamond != noone
+	{
+		_diamond.hit = true; 
+	}
 
 //Destroy objs trail
 if instance_exists(obj_trail_1) 

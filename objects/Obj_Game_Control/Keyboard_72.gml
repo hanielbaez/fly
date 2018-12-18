@@ -1,5 +1,6 @@
 /// @description Go to home menu
 counter = 0;
+show_button = false;
 
 virtual_key_delete(key_home);
 virtual_key_delete(key_next_or_try);
