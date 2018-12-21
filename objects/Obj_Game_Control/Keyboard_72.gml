@@ -1,9 +1,12 @@
 /// @description Go to home menu
 counter = 0;
 show_button = false;
+confety = true;
 
 virtual_key_delete(key_home);
 virtual_key_delete(key_next_or_try);
+
+instance_create_layer(0,0,"Transition_Layer", Obj_Transition_Control);
 
 //Clean the surface
 surface_set_target(Obj_Surface_Control.surface_color);

@@ -15,7 +15,8 @@ lvl_bar = _halft_wroom-200;
 //Calculate value of the insect per LVL
 if Obj_Game_Control.lvl > 2
 {
-	var _insect_number = irandom_range(4, 6);
+	var _insect_number = irandom_range(4, lvl/2);
+	_insect_number = clamp(_insect_number, 4, 10); 
 }
 else
 {
@@ -41,11 +42,11 @@ for (var _i=0; _i<=_insect_number; _i++)
 			}
 		else if lvl >= 20 && lvl < 25
 			{
-				var _insect = choose(Obj_Fly, Obj_Mosquito, Obj_Cockroach, Obj_Spider);
+				var _insect = choose(Obj_Fly, Obj_Mosquito, Obj_Cockroach, Obj_Beetle);
 			}
 		else if lvl >= 25 
 			{
-				var _insect = choose(Obj_Fly, Obj_Mosquito, Obj_Cockroach, Obj_Spider, Obj_Butterfly);
+				var _insect = choose(Obj_Fly, Obj_Mosquito, Obj_Cockroach, Obj_Bee, Obj_Butterfly);
 			}
 		#endregion
 		
@@ -71,7 +72,7 @@ for (var _i=0; _i<=_insect_number; _i++)
 				{
 					var _x = random_range(250, room_width - 250);
 					var _y = random_range(250, room_height - 750);
-					instance_create_layer(_x, _y, "Insect_Layer", Obj_Bee);
+					instance_create_layer(_x, _y, "Bee_Layer", Obj_Bee);
 				}
 		}
 

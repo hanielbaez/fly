@@ -14,7 +14,7 @@ if counter == 0
 
 	}
 
-size_score =  lerp(size_score, 5, 0.1);
+size_score =  lerp(size_score, 10, 0.1);
 
 
 

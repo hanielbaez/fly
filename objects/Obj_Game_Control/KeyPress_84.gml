@@ -6,6 +6,8 @@ if !audio_is_playing(Son_Calm) audio_play_sound(Son_Calm, 1 , true); //Backgroun
 virtual_key_delete(key_home);
 virtual_key_delete(key_next_or_try);
 
+instance_create_layer(0,0,"Transition_Layer", Obj_Transition_Control);
+
 //Clean the surface
 surface_set_target(Obj_Surface_Control.surface_color);
 draw_clear_alpha(c_black,0);

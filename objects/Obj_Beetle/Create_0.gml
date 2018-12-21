@@ -1,5 +1,4 @@
 /// @description Set vars
-
-//event_inherited()
+event_inherited()
 angle = 0;
-length = random_range(10, 15);
+length = random_range(5, 15);

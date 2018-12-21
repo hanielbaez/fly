@@ -6,6 +6,8 @@ virtual_key_delete(key_next_or_try);
 lvl++;
 confety = true;
 
+instance_create_layer(0,0,"Transition_Layer", Obj_Transition_Control);
+
 //Channge the color of the room random
 var _color = random_range(1, 255);
 var _saturation = 225;
