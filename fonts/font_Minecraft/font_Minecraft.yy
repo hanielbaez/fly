@@ -5,6 +5,7 @@
     "name": "font_Minecraft",
     "AntiAlias": 1,
     "TTFName": "${project_dir}\\fonts\\font_Minecraft\\Minecraft.ttf",
+    "ascenderOffset": 0,
     "bold": false,
     "charset": 0,
     "first": 0,

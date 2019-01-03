@@ -16,7 +16,8 @@ if lvl > 5
 
 if bee_touch
 	{
-	image_xscale = lerp(image_xscale, 5, 0.1);
+	sprite_index = Spr_Bee_mad;
+	image_xscale = lerp(image_xscale, 2.5, 0.05);
 	image_yscale = image_xscale;
 	x = lerp(x, room_width/2, 0.1);
 	y = lerp(y, room_height/2, 0.1);
@@ -34,7 +35,7 @@ if Obj_Game_Control.state = states.Game && image_xscale >= 4.5
 	//Shake the phone
 	if ( ex_patch_device_vibration_supported() ) 
 		{
-			ex_patch_device_vibrate(250); // time argument is not supported for iOS (vibration effect is always 2s)
+			ex_patch_device_vibrate(400); // time argument is not supported for iOS (vibration effect is always 2s)
 		} 
 		//else { show_message("Vibration not supported on this target!"); }
 		

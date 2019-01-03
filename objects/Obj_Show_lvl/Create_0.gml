@@ -1,2 +1,6 @@
 /// @description Set var
-draw_alpha = 1;
+start = x;
+destination = x + 575;
+currentFrame = 0;
+maxFrame = 50;
+alpha = 1;

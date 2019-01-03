@@ -14,7 +14,7 @@ if _insect != noone && !_insect.dead
 		part_emitter_region(global.explotion_system, global.explotion_emmiter, _insect.x-20, _insect.x+20, _insect.y-20, _insect.y+20, pt_shape_sphere, ps_distr_gaussian);
 		part_emitter_burst(global.explotion_system, global.explotion_emmiter, global.explotion_part, 50);
 
-		spawn = random_range(20, 30);
+		spawn = random_range(20, 40);
 
 		for(i=0; i<spawn; i++)
 			{
@@ -22,7 +22,7 @@ if _insect != noone && !_insect.dead
 			}
 
 		//Bubble EFX
-		var _sound = choose(Son_Bubble, Son_Squeeze); 
+		var _sound = choose(Son_Bubble); 
 		audio_play_sound(_sound, 1, false);
 
 		color_random(); //Update splash color
@@ -37,7 +37,14 @@ if _insect != noone && !_insect.dead
 		
 		//Update LVL bar value
 		Obj_Game_Control.lvl_bar += Obj_Game_Control.insect_value;
-		Obj_Game_Control.size_score = 15;
+		Obj_Game_Control.size_score = 4;
+		
+		//Shake the phone
+		if ( ex_patch_device_vibration_supported() ) 
+		{
+			ex_patch_device_vibrate(100); // time argument is not supported for iOS (vibration effect is always 2s)
+		} 
+		//else { show_message("Vibration not supported on this target!"); }
 				
 		_insect.dead = true;
 	}
@@ -56,12 +63,12 @@ if _diamond != noone
 	}
 
 //Destroy objs trail
-if instance_exists(obj_trail_1) 
-	{
-	instance_destroy(obj_trail_1); 
-	}
+//if instance_exists(obj_trail_1) 
+//	{
+//	instance_destroy(obj_trail_1); 
+//	}
 	
-if instance_exists(obj_trail_2) 
-	{
-	instance_destroy(obj_trail_2);
-	}
+//if instance_exists(obj_trail_2) 
+//	{
+//	instance_destroy(obj_trail_2);
+//	}

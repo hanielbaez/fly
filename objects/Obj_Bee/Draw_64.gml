@@ -6,3 +6,5 @@ if image_xscale >= 4.5
 		image_alpha = 0;
 		draw_red_alpha -= 0.01;
 	}
+	
+if draw_red_alpha < 0 instance_destroy();

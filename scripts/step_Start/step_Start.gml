@@ -1,5 +1,5 @@
 //Random number of insect for the LVL
-instance_create_layer(1, 1, "Insect_Layer", Obj_Show_lvl);
+instance_create_layer(-200, 1, "Transition_Layer", Obj_Show_lvl);
 
 if instance_exists(Obj_Parent_Insect) || instance_exists(Obj_Bee)
 	{
@@ -16,7 +16,7 @@ lvl_bar = _halft_wroom-200;
 if Obj_Game_Control.lvl > 2
 {
 	var _insect_number = irandom_range(4, lvl/2);
-	_insect_number = clamp(_insect_number, 4, 10); 
+	_insect_number = clamp(_insect_number, 4, 7); 
 }
 else
 {

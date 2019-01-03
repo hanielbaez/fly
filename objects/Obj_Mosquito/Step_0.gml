@@ -2,8 +2,13 @@
 
 if dead
 	{
-	image_angle = 180;
 	gravity = .1;
+	if image_angle != 180
+	{
+		var _spr = sprite_get_name(sprite_index);
+		sprite_index = asset_get_index(_spr + "_dead");
+	}
+	image_angle = 180;
 	x += random_range(-15, 15); //Shake
 	if y > room_height instance_destroy();
 	}

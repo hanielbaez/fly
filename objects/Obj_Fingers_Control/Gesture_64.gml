@@ -14,7 +14,7 @@ if _insect != noone && !_insect.dead
 		part_emitter_region(global.explotion_system, global.explotion_emmiter, _insect.x-20, _insect.x+20, _insect.y-20, _insect.y+20, pt_shape_sphere, ps_distr_gaussian);
 		part_emitter_burst(global.explotion_system, global.explotion_emmiter, global.explotion_part, 50);
 
-		spawn = random_range(20, 30);
+		spawn = random_range(50, 80);
 
 		for(i=0; i<spawn; i++)
 			{
@@ -37,7 +37,7 @@ if _insect != noone && !_insect.dead
 		
 		//Update LVL bar value
 		Obj_Game_Control.lvl_bar += Obj_Game_Control.insect_value;
-		Obj_Game_Control.size_score = 15;
+		Obj_Game_Control.size_score = 7;
 				
 		_insect.dead = true;
 	}

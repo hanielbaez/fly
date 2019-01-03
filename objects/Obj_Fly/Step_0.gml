@@ -4,11 +4,8 @@ event_inherited();
 
 if !dead && image_xscale >= 0.98
 {
-	if Obj_Game_Control.lvl > 2
-	{
-		x += x_dir*7;
-		y += y_dir*7;	
-	}
+	x += x_dir*7;
+	y += y_dir*7;	
 	
 	if x_dir > 0 image_xscale = -1; else image_xscale = 1;
 	
