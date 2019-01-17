@@ -7,14 +7,18 @@ shake = 0;
 clasic_score = 0;
 size_score = 2;
 insect_value = 0;
+sunshine_a = 1;
 diamond_counter = 0;
 show_button = false;
 confety = true;
 
+
+//***
+currentFrame = 0;
+maxFrame = 60;
+
 var _halft_wroom =  room_width/2;
 lvl_bar = _halft_wroom-200;
-
-audio_play_sound(Son_Calm, 1 , true); //Background music
 
 global.explotion_system = part_system_create();	
 	

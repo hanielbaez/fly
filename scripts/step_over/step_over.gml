@@ -1,11 +1,8 @@
 //Virtual key for try again
-if lvl != 1
-{
-	lvl = 1;
-	alarm[0] = room_speed*4;
-}
+obj_level_bar.state_bar = 0
+//alarm[0] = room_speed*2;
 
-if state = states.Over && show_button
+if state = states.Over //&& show_button
 	{
 		var half_view_wport =  view_wport[0]/2;
 		//Virtual key for next lvl

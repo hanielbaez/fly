@@ -1,5 +1,5 @@
 global.color = c_lime; //Defaul color
-global.back_color = c_aqua; //Background color
+global.back_color = c_purple; //Background color
 
 //State machine
 enum states
@@ -9,7 +9,8 @@ enum states
 		Start,
 		Game, 
 		Success, 
-		Over 
+		Over,
+		New
 	}
 
 //Start GameAnalytic

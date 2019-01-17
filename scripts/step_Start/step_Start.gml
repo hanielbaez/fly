@@ -1,5 +1,5 @@
 //Random number of insect for the LVL
-instance_create_layer(-200, 1, "Transition_Layer", Obj_Show_lvl);
+if obj_level_bar.state_bar == 0 instance_create_layer(-200, 1, "Transition_Layer", Obj_Show_lvl);
 
 if instance_exists(Obj_Parent_Insect) || instance_exists(Obj_Bee)
 	{
@@ -9,42 +9,35 @@ if instance_exists(Obj_Parent_Insect) || instance_exists(Obj_Bee)
 	}
 
 //Restar the value of the LVL bar
-var _halft_wroom =  room_width/2;
-lvl_bar = _halft_wroom-200;
+//var _halft_wroom =  room_width/2;
+//lvl_bar = _halft_wroom-200;
 
 //Calculate value of the insect per LVL
-if Obj_Game_Control.lvl > 2
-{
-	var _insect_number = irandom_range(4, lvl/2);
-	_insect_number = clamp(_insect_number, 4, 7); 
-}
-else
-{
-	var _insect_number = 2;
-}
+var _insect_number = irandom_range(4, lvl/2);
+_insect_number = clamp(_insect_number, 4, 7); 
 
 insect_value = 400/(_insect_number+1);
 
 for (var _i=0; _i<=_insect_number; _i++)
 	{
 		#region Insect_by_lvl
-		if lvl < 10
+		if lvl <= 2
 			{
 				var _insect = choose(Obj_Fly);
 			}
-		else if lvl >= 10 && lvl < 15
+		else if lvl == 3
 			{
 				var _insect = choose(Obj_Fly, Obj_Mosquito);
 			}
-		else if lvl >= 15 && lvl < 20
+		else if lvl == 4
 			{
 				var _insect = choose(Obj_Fly, Obj_Mosquito, Obj_Cockroach);
 			}
-		else if lvl >= 20 && lvl < 25
+		else if lvl == 5
 			{
 				var _insect = choose(Obj_Fly, Obj_Mosquito, Obj_Cockroach, Obj_Beetle);
 			}
-		else if lvl >= 25 
+		else if lvl == 6
 			{
 				var _insect = choose(Obj_Fly, Obj_Mosquito, Obj_Cockroach, Obj_Bee, Obj_Butterfly);
 			}
@@ -66,7 +59,7 @@ for (var _i=0; _i<=_insect_number; _i++)
 	
 	//Number of bee to create
 	var _bee_number = irandom_range(2, 3);
-	if lvl >= 5
+	if lvl >= 2
 		{
 			for (var _t=0; _t< _bee_number; _t++)
 				{

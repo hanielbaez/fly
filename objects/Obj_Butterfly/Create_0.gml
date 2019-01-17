@@ -3,4 +3,4 @@ event_inherited()
 
 randomize()
 x_dir = choose(-1, 1);
-velocity = random_range(10, 15);
+insect_speed = random_range(10, 15);

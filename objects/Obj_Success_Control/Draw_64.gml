@@ -63,5 +63,10 @@ draw_sprite_ext(spr_capture, -1, _half_view_wport-100, 450, _scale, _scale, 0, c
 
 
 
+
+
+
+
+
 //Draw particle
 part_system_drawit(confety_system);

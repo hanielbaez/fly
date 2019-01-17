@@ -1,7 +1,7 @@
 /// @description Action of move
 event_inherited();
 
-x += velocity * x_dir;
+x += insect_speed * x_dir;
 
 //Look at
 if x_dir = 1 image_xscale = -1; else image_xscale = 1;

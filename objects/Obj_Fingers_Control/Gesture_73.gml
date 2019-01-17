@@ -12,9 +12,9 @@ if _insect != noone && !_insect.dead
 	{
 		part_type_color1(global.explotion_system, global.color);
 		part_emitter_region(global.explotion_system, global.explotion_emmiter, _insect.x-20, _insect.x+20, _insect.y-20, _insect.y+20, pt_shape_sphere, ps_distr_gaussian);
-		part_emitter_burst(global.explotion_system, global.explotion_emmiter, global.explotion_part, 50);
+		part_emitter_burst(global.explotion_system, global.explotion_emmiter, global.explotion_part, 25);
 
-		spawn = random_range(20, 40);
+		spawn = random_range(10, 20);
 
 		for(i=0; i<spawn; i++)
 			{
@@ -45,6 +45,7 @@ if _insect != noone && !_insect.dead
 			ex_patch_device_vibrate(100); // time argument is not supported for iOS (vibration effect is always 2s)
 		} 
 		//else { show_message("Vibration not supported on this target!"); }
+		Obj_Surface_Control.shake = random_range(5, 20);
 				
 		_insect.dead = true;
 	}
@@ -63,12 +64,12 @@ if _diamond != noone
 	}
 
 //Destroy objs trail
-//if instance_exists(obj_trail_1) 
-//	{
-//	instance_destroy(obj_trail_1); 
-//	}
+if instance_exists(obj_trail_1) 
+	{
+	instance_destroy(obj_trail_1); 
+	}
 	
-//if instance_exists(obj_trail_2) 
-//	{
-//	instance_destroy(obj_trail_2);
-//	}
+if instance_exists(obj_trail_2) 
+	{
+	instance_destroy(obj_trail_2);
+	}

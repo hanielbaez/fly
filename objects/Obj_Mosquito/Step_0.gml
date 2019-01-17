@@ -15,8 +15,8 @@ if dead
 	else
 	{
 		//Move
-		x += x_dir * velocity;
-		y += y_dir * velocity;
+		x += x_dir * insect_speed;
+		y += y_dir * insect_speed;
 		
 		//Look at
 		if x_dir = 1 image_xscale = -1; else image_xscale = 1;

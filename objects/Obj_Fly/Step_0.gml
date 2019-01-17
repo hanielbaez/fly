@@ -4,8 +4,8 @@ event_inherited();
 
 if !dead && image_xscale >= 0.98
 {
-	x += x_dir*7;
-	y += y_dir*7;	
+	x += x_dir*insect_speed;
+	y += y_dir*insect_speed;	
 	
 	if x_dir > 0 image_xscale = -1; else image_xscale = 1;
 	

@@ -8,11 +8,8 @@ if x-50 < 0 x_dir = 1;
 if y+100 > room_height y_dir = -1;
 if y-100 <= 0 y_dir = 1;
 
-if lvl > 5
-	{
-		x += x_dir * velocity;
-		y += y_dir * velocity;
-	}
+x += x_dir * velocity;
+y += y_dir * velocity;
 
 if bee_touch
 	{
@@ -27,7 +24,7 @@ else
 		if x_dir = 1 image_xscale = -1; else image_xscale = 1; 	//Look at
 	}
 	
-if Obj_Game_Control.state = states.Game && image_xscale >= 4.5
+if Obj_Game_Control.state = states.Game && image_xscale >= 2
 	{
 	audio_stop_all();
 	audio_play_sound(Son_Auch, 1, false); //Auch EFX

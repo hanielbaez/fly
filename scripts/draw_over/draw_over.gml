@@ -13,9 +13,7 @@ draw_sprite_ext(spr_home_gui, -1, 50, 50, .25, .25, 0, c_white, 1);
 draw_text_transformed(half_view_wport, 250, string(clasic_score), .5, .5, image_angle);
 //draw_text_transformed(half_view_wport, 300, "BEST: " + string(1000), 1, 1, image_angle);
 
-if show_button
-{
-	draw_sprite_ext(spr_try_again, -1, half_view_wport, 450, .5, .5, 0, c_white, 1);
-}
+draw_sprite_ext(spr_try_again, -1, half_view_wport, 450, .5, .5, 0, c_white, 1);
+
 
 

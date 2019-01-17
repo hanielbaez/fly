@@ -18,7 +18,7 @@ else
 		x_size += 0.01;
 		y_size = x_size;
 		}
-		
+	
 	//Ocilation move
 	t = (t + increment) mod 360;
 	shift = amplitude * dsin(t);

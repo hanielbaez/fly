@@ -15,7 +15,7 @@ void main()
 	 vec2 offsetY;
 	 offsetY.y = pixelH;
  
-	 vec3 outlineCol = vec3(1.0,0,0);
+	 vec3 outlineCol = vec3(1.0,1.0,1.0);
 	 vec3 pixelColAdd = vec3(0.0,0.0,0.0);
  
 	 float alpha = texture2D( gm_BaseTexture, v_vTexcoord).a;
