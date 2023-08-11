@@ -1,4 +1,4 @@
-# Color Fly 🦟🐝 - Unleash Your Inner Insect Catcher!
+# Color Fly 🦟🐝 
 
 <p align="center">
   <img src="https://github.com/NoobBaez/fly/blob/master/colorFlyTrailer.gif" width="300" alt="Color Fly">
